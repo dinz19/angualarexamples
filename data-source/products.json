@@ -1,0 +1,30 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "productname": "Cricket Bat",
+        "categoryId": 23
+      },
+      {
+        "id": 2,
+        "productname": "Tennis Bat",
+        "categoryId": 25
+      },
+      {
+        "id": 3,
+        "productname": "Cricket Ball",
+        "categoryId": 23
+      },
+      {
+        "id": 4,
+        "productname": "Ball",
+        "categoryId": 24
+      },
+      {
+        "id": 5,
+        "productname": "Tennis Ball",
+        "categoryId": 25
+      }
+      
+    ]
+  }

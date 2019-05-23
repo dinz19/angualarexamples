@@ -1,0 +1,8 @@
+<h2 style='text-align: center'>
+  Template Driven Forms 
+</h2>
+<form #simpleForm="ngForm" (ngSubmit)="submitForm(simpleForm.value)">
+  FIRST NAME : <input type="text" name="firstname" [(ngModel)]="fname"> <BR>
+  LAST NAME :  <input type="text" name="lastname" [(ngModel)]="lname"><BR>
+   <button type="submit">Submit</button>
+</form>

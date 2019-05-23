@@ -1,0 +1,17 @@
+{
+    "categories": [
+      {
+        "id": 23,
+        "categoryname": "Cricket"
+        
+      },
+      {
+        "id": 24,
+        "categoryname": "VollyBall"
+      },
+      {
+        "id": 25,
+        "categoryname": "Tennis"
+      }
+    ]
+  }

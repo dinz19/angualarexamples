@@ -1,0 +1,16 @@
+<div>
+<h2 style='text-align: center'>TASK MANAGER</h2>
+<form #todoForm="ngForm" (ngSubmit)="addTodo(todoForm)">
+    <label>Add </label>
+    <input type="text" name="todo" [(ngModel)]="todo">
+    <button type="submit">Add Task</button>
+
+    <br>
+    <br>
+    <h4>List of Tasks</h4>
+    <ol>
+      <li *ngFor="let t of tasks;let taskCounter = index"> {{ t }} <button (click)="taskCompleted(taskCounter)"> Done </button></li>
+    </ol>
+  </form>
+
+</div>

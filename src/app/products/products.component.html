@@ -1,0 +1,24 @@
+
+<div style="text-align:left;width:500px;">
+  <h3>
+      {{ title }}
+  </h3>
+  <table *ngIf="products" class="table table-bordered">
+        <thead>
+     <tr>
+          <th>ID</th>
+              <th>Name </th>
+              <th>Category </th>
+            
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let product of products">
+          <td>{{product.id}}</td>
+              <td>{{product.productname}}</td>
+              <td>{{product.categoryId}}</td>
+                  
+      </tr>
+    </tbody>
+  </table>
+</div>

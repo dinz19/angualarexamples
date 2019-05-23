@@ -1,0 +1,33 @@
+<div>
+ <li *ngFor="let f of friends">{{f}}</li>
+
+ <table border="1" *ngIf="display">
+   <thead>
+     <tr>
+       <th>City</th>
+       <th>Code</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr *ngFor = "let loc of location">
+       <td>{{loc.city}}</td>
+       <td>{{loc.code}}</td>
+     </tr>
+   </tbody>
+ </table>
+
+ <div >
+   <button (click)="myFunc()">Hide/Show</button>
+ </div>
+</div>
+
+<br>
+<div>
+  <div [ngSwitch]="check">
+    <span *ngSwitchCase="'AK'">Arun Kumar</span>
+    <span *ngSwitchCase="'RM'">RAM</span>
+    <span *ngSwitchCase="'GI'">GOPI</span>
+    <span *ngSwitchCase="'SN'">SUGAN</span>
+    <span *ngSwitchDefault>Default Name</span>
+  </div>
+</div>
